@@ -1,0 +1,77 @@
+{
+  "name": "@parthobepary/nuxt-ga",
+  "version": "1.0.0",
+  "description": "Google Analytics module for Nuxt 3/4 with GA4, GTM, Universal Analytics, e-commerce tracking, lazy loading, and GDPR consent mode",
+  "author": "Partho Bepary",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/types.d.ts",
+      "import": "./dist/module.mjs",
+      "require": "./dist/module.cjs"
+    }
+  },
+  "main": "./dist/module.cjs",
+  "module": "./dist/module.mjs",
+  "types": "./dist/types.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepack": "nuxt-module-build build",
+    "dev": "nuxi dev playground",
+    "dev:build": "nuxi build playground",
+    "dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare && nuxi prepare playground",
+    "build": "nuxt-module-build build",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:watch": "vitest watch",
+    "release": "npm run build && npm publish --access public"
+  },
+  "dependencies": {
+    "@nuxt/kit": "^3.13.0"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^1.5.0",
+    "@nuxt/module-builder": "^0.8.0",
+    "@nuxt/schema": "^3.13.0",
+    "nuxt": "^3.13.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  },
+  "keywords": [
+    "nuxt",
+    "nuxt3",
+    "nuxt4",
+    "nuxt-module",
+    "google-analytics",
+    "google-tag-manager",
+    "gtag",
+    "gtm",
+    "ga4",
+    "analytics",
+    "ecommerce",
+    "tracking",
+    "gdpr",
+    "consent-mode",
+    "datalayer",
+    "vue",
+    "vue3"
+  ],
+  "homepage": "https://github.com/parthobepary/nuxt-ga#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parthobepary/nuxt-ga.git"
+  },
+  "bugs": {
+    "url": "https://github.com/parthobepary/nuxt-ga/issues"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/parthobepary"
+  }
+}
