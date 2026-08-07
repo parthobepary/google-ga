@@ -1,0 +1,39 @@
+# Source files (dist is published)
+src/
+
+# Development
+playground/
+.nuxt/
+.output/
+node_modules/
+
+# Config files
+tsconfig.json
+nuxt.config.ts
+build.config.ts
+.gitignore
+.npmignore
+
+# Git
+.git/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Lock files
+package-lock.json
+
+# Tests
+test/
+tests/
+*.test.ts
+*.spec.ts
+coverage/
+
+# Docs (available on GitHub)
+LICENSE
+README.md
