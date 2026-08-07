@@ -62,13 +62,13 @@
     "vue",
     "vue3"
   ],
-  "homepage": "https://github.com/parthobepary/nuxt-ga#readme",
+  "homepage": "https://github.com/parthobepary/google-ga#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/parthobepary/nuxt-ga.git"
+    "url": "git+https://github.com/parthobepary/google-ga.git"
   },
   "bugs": {
-    "url": "https://github.com/parthobepary/nuxt-ga/issues"
+    "url": "https://github.com/parthobepary/google-ga/issues"
   },
   "funding": {
     "type": "individual",
