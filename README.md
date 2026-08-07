@@ -1,4 +1,7 @@
-# @parthobepary/nuxt-ga
+# nuxt-google-ga
+
+[![npm version](https://badge.fury.io/js/nuxt-google-ga.svg)](https://www.npmjs.com/package/nuxt-google-ga)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Google Analytics module for Nuxt 3/4 with GA4, GTM, and Universal Analytics support.
 
@@ -18,7 +21,7 @@ Google Analytics module for Nuxt 3/4 with GA4, GTM, and Universal Analytics supp
 ## Installation
 
 ```bash
-npm install @parthobepary/nuxt-ga
+npm install nuxt-google-ga
 ```
 
 ## Configuration
@@ -27,7 +30,7 @@ Add the module to your `nuxt.config.ts`:
 
 ```typescript
 export default defineNuxtConfig({
-  modules: ['@parthobepary/nuxt-ga'],
+  modules: ['nuxt-google-ga'],
 
   googleAnalytics: {
     // Option 1: Google Tag Manager (recommended)
