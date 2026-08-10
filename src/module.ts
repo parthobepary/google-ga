@@ -3,7 +3,7 @@ import type { ModuleOptions } from './types'
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: 'nuxt-google-ga',
+    name: '@parthobepary/nuxt-ga',
     configKey: 'googleAnalytics',
     compatibility: {
       nuxt: '>=3.0.0',

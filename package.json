@@ -1,6 +1,6 @@
 {
-  "name": "nuxt-google-ga",
-  "version": "1.0.0",
+  "name": "@parthobepary/nuxt-ga",
+  "version": "1.0.1",
   "description": "Google Analytics module for Nuxt 3/4 with GA4, GTM, Universal Analytics, e-commerce tracking, lazy loading, and GDPR consent mode",
   "author": "Partho Bepary",
   "license": "MIT",
@@ -21,6 +21,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "prepack": "nuxt-module-build build",
     "dev": "nuxi dev playground",
